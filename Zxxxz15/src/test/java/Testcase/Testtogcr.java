@@ -17,7 +17,7 @@ public class Testtogcr  extends Baseclass{
 
 @Test(priority=1)
 public void launchapp(){
-logger=report.createTest("Testtogcr1");
+logger=report.createTest("Testtogcr");
 Loginpage login=PageFactory.initElements(driver, Loginpage.class);
 logger.info("start application");
 login.Testtogcr(excel.getString("login", 0, 0), excel.getString("login", 0, 1));
