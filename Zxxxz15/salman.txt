@@ -1,1 +1,4 @@
-
+book
+data
+omputer
+memory
