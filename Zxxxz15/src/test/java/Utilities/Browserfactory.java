@@ -10,7 +10,7 @@ public class Browserfactory {
 	
 	
 public static WebDriver startapplication(WebDriver driver,String browsername,String appurl){
-if(browsername.equals("Chrome")){
+if(browsername.equals("Chrome1")){
 System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 driver=new ChromeDriver();
 System.out.println("passed");
